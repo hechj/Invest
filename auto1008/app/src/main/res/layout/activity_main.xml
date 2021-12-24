@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_t"
+        android:layout_marginTop="50dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="请在下方输入时间"
+        android:gravity="center"
+        android:layout_marginRight="16dp"
+        />
+    <EditText
+        android:id="@+id/ed_t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="分钟数"
+        android:digits="1234567890"
+        android:maxLength="4"
+        android:layout_marginLeft="8dp"/>
+
+
+    <Button
+        android:id="@+id/bt_begin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:text="开始"
+        android:gravity="center"
+        android:layout_marginBottom="50dip"
+        />
+
+    <TextView
+        android:id="@+id/et_disp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text=""
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+</LinearLayout>
